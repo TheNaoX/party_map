@@ -6,10 +6,13 @@ defaults: &defaults
   password: dev
   
 development:
+  <<: *defaults
   database: party_map_dev
 
 test:
+  <<: *defaults
   database: party_map_test
 
 production:
+  <<: *defaults
   database: party_map
