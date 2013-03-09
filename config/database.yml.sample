@@ -1,0 +1,15 @@
+defaults: &defaults
+  adapter: postgresql
+  pool: 5
+  timeout: 5000
+  username: dev
+  password: dev
+  
+development:
+  database: party_map_dev
+
+test:
+  database: party_map_test
+
+production:
+  database: party_map
