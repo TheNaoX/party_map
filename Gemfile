@@ -12,6 +12,8 @@ gem 'turbolinks'
 
 gem 'jbuilder', '~> 1.0.1'
 
+gem 'omniauth'
+
 group :development do
   gem 'pry'
 end
